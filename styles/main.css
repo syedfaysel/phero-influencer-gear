@@ -14,6 +14,52 @@ section{
     margin-bottom: 100px;
 }
 
+/* --------------
+Navbar Styles 
+---------------- */
+nav{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr .5fr;
+    align-items: center;
+}
+.sidebar{
+    display: none;
+}
+
+.logo h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 120px;
+    color: #3A3A3A;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.links a,.cart a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;  
+    transition: font-size 0.4s,color 0.1s;
+}
+.links a:hover,.cart a:hover,.fa-bars:hover{
+    color: #E02C6D;
+    font-size: 18px;
+}
+.cart .fa-opencart{
+    font-size: 24px;
+}
+.links div,.cart{
+    margin: 0 18px;
+}
+
 
 /*---------------
  Hero Section Styles
@@ -73,6 +119,24 @@ section{
     margin-right: auto;
 
  }
+
+ /* -----------------
+ Brand & Partners 
+ ------------------ */
+ .brands{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+     align-items: center;
+     margin-left: 80px;
+     margin-right: 80px;
+     grid-row-gap: 10px;
+ }
+ .brands div{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
 
 
 /* -------------------
@@ -191,8 +255,8 @@ Featured Section Style
 }
 .featured-text h2{
     font-weight: bold;
-    font-size: 34px;
-    line-height: 100%;
+    font-size: 32px;
+    line-height: 130%;
     color: #0A0826;
 }
 .featured-text p{
@@ -229,6 +293,14 @@ footer{
     align-items: center;
     text-align: center;
     padding-top: 30px;
+}
+.footer-container h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer-container p{
+    font-size: 16px;
+    color: #D9DBE1;
 }
 
 .social ul{
