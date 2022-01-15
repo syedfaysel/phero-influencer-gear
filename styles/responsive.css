@@ -1,0 +1,85 @@
+ /*------------------------
+  Style for Mobile Devices 
+  ------------------------- */
+
+  @media only screen and (max-width:767px){
+    
+    .section{
+        margin-bottom: 50px;
+    }
+    
+    .top-banner{
+        flex-direction: column-reverse;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .top-image{
+        display: flex;
+        align-items: center;
+        width: 257px;
+        height: 257px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        
+    }
+    .top-image img{
+        width: 202px;
+        height: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .top-text{
+        text-align: center;
+    }
+    .top-text h1{
+        font-size: 40px;
+        line-height: 60px;
+        padding-bottom: 10px;
+    }
+
+    /* -------------------
+    Popular Collection Styles
+    -----------------------  */
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        
+    }
+    
+    .see-more{
+        margin: 50px 25%;
+    }
+
+    /* -------------------
+    Featured Section Style 
+    ---------------------- */
+    .featured{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .featured-text{
+        text-align: center;
+        margin-bottom: 15px;
+        width: 80%;
+    }
+    .featured-image{
+        margin-top: 15px;
+        display: flex;
+
+        width: 100%;
+
+    }
+    .featured-image img{
+        width: 299px;
+        height: 188px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+
+}
